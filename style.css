@@ -122,6 +122,11 @@ body{
      
  }
 
+
+ #paragraph p{
+     padding-right: 40px;
+ }
+
  .layer{
     border-top-left-radius: 0px;
     border-bottom-right-radius: 20px;
