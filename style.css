@@ -48,10 +48,12 @@ h1{
 
  #words{
      width: 50%;
+     order: 0;
  }
 
  #picture{
      width: 50%;
      background-image: url('img/image-header-desktop.jpg');
+     order: 99;
  }
 }
