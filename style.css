@@ -26,8 +26,14 @@ body{
     background-color:hsl(244, 38%, 16%) ;
 }
 
-h1{
+#words h1{
     color: hsl(0, 0%, 100%);
+    font-family: 'Inter', sans-serif;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 8px;
+
 }
 
 #words span{
@@ -37,6 +43,13 @@ h1{
 #words p{
     color: hsla(0, 0%, 100%, 0.75);
     line-height: 24px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    text-indent: 1px;
 }
 
 
