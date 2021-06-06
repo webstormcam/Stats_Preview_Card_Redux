@@ -89,26 +89,53 @@ body{
  #card{
     flex-direction: row;
     width: 800px;
+    margin-top: 20vh;
+  
  
  }
 
  #words{
      width: 50%;
      order: 0;
+     border-bottom-right-radius: 0px;
+     border-bottom-left-radius: 20px;
+     border-top-left-radius: 20px;
+     text-align: unset;
  }
 
  #picture{
      width: 50%;
      background-image: url('img/image-header-desktop.jpg');
      order: 99;
+     border-top-left-radius: 0px;
+     border-bottom-right-radius: 20px;
  }
+
+ #paragraph{
+     width:100% ;
+     margin-left: 15px;
+     margin-right: 15px;
+    
+     
+ }
+
+ .layer{
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 20px;
+ }
+
+
 
  #stats{
      display: flex;
+     justify-content: center;
+    
  }
 
  #stats p{
      margin: 0;
+     padding-top: 0;
+
     
      
  }
