@@ -85,7 +85,7 @@ body{
 }
 
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width:1024px) {
  #card{
     flex-direction: row;
     width: 1000px;
